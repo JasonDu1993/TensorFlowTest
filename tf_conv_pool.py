@@ -3,7 +3,7 @@ import numpy as np
 from math import ceil
 
 tf.set_random_seed(1)
-n = 14
+n = 13
 f = 6
 s = 5
 startw = 0

@@ -3,13 +3,13 @@ import numpy as np
 from math import ceil
 
 tf.set_random_seed(1)
-n = 13
-f = 6
+n = 6
+f = 3
 s = 2
 startw = 0
-endw = 6
+endw = 3
 starth = 0
-endh = 6
+endh = 3
 
 arr = np.arange(n * n * 3).reshape((1, n, n, 3))
 # pad_total = ((n - 1) * s + f - n)
